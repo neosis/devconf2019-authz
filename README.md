@@ -23,4 +23,7 @@ cd $KEYCLOAK_HOME/bin
 6) Switching between branches `master` for not-UMA setup (demo part1) and `authz-backup` for UMA setup (demo part2)
 
 
+6) Switching between branches `master` for not-UMA setup (demo part1) and `authz-backup` for UMA setup (demo part2)
+
+
 
