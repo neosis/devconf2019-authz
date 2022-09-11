@@ -9,10 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>devconf2019-app</artifactId>
-    <id>DevConf2019 - App</id>
+    <!-- <id>DevConf2019 - App</id> -->
+    <name>DevConf2019 - App</name>
 
     <properties>
-        <springboot-version>2.0.3.RELEASE</springboot-version>
+        <springboot-version>1.5.3.RELEASE</springboot-version>
         <httpclient.version>4.5.3</httpclient.version>
         <spring-mvc-cache-control.version>1.1.1-RELEASE</spring-mvc-cache-control.version>
     </properties>
@@ -54,6 +55,7 @@
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-spring-boot-starter</artifactId>
+            <version>4.0.0.Final</version>
         </dependency>
         <dependency>
             <groupId>net.rossillo.mvc.cache</groupId>
@@ -85,11 +87,11 @@
             <version>${springboot-version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
+        <!-- <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-test-helper</artifactId>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
